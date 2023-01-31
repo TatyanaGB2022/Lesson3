@@ -12,6 +12,6 @@ int i = 1;
 while (i <= N) //меньше или равно
 {
   double result = Math.Pow(i, 2);
-  System.Console.WriteLine(result);
+  System.Console.WriteLine($"Квадрат числа {i} равен " + result);
   i++;
 }
